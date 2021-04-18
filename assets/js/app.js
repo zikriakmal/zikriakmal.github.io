@@ -12,4 +12,4 @@ const fadeEffect = setInterval(() => {
         preloader.style.zIndex = -999;
         clearInterval(fadeEffect)
     }
-  }, 100);
+  }, 80);
