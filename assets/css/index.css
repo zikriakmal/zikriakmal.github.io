@@ -62,15 +62,14 @@ body {
 @media screen and (max-width: 992px) {
     .wrapper {
         display: block;
-
     }
 
     .left-wrapper{
-       height: 50% !important;
+       height: 40% !important;
        width: 100% !important;
    }
    .right-wrapper{
-       height: auto;
+       height: 70% !important;
        width: 100% !important;
    }
 }
