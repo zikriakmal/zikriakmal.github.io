@@ -6,7 +6,6 @@ body{
 .wrapper{
     margin: 0px;
     display: flex;
-    flex: wrap;
     flex-direction: row;
     height: 100vh;
 }
@@ -17,6 +16,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
+    
 }
 
 .image{
@@ -26,7 +26,6 @@ body{
 
 .right-wrapper{
     background: linear-gradient(#222,rgb(138, 138, 138));
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,15 +61,15 @@ body{
 
 @media screen and (max-width: 992px) {
    .wrapper{
-       flex-direction: column  !important;
+        display:block;
+        
    } 
     .left-wrapper{
-       height: 60% !important;
-       width: 100% !important;
+        height: 45vh !important;
+        width: 100% !important;
    }
    .right-wrapper{
-       height: 50%;
-       width: 100% !important;
+       width: 100%  !important;
    }
   }
 
