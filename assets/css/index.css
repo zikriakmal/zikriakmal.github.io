@@ -64,14 +64,14 @@ body {
         display: block;
     }
 
-    .left-wrapper{
-       height: 40% !important;
-       width: 100% !important;
-   }
-   .right-wrapper{
-       height: 70% !important;
-       width: 100% !important;
-   }
+    .left-wrapper {
+        height: 40% !important;
+        width: 100% !important; 
+    }
+    .right-wrapper{
+        height: 60% !important;
+        width: 100% !important;
+    }
 }
 
 h1 {
