@@ -65,11 +65,11 @@ body {
     }
 
     .left-wrapper {
-        height: 40% !important;
+        height: 40dvh !important;
         width: 100% !important; 
     }
     .right-wrapper{
-        height: 60% !important;
+        height: 60dvh !important;
         width: 100% !important;
     }
 }
